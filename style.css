@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto+Mono:wght@100&family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Old+Standard+TT&family=Roboto+Mono:wght@100&family=Ubuntu&display=swap');
+
+span{
+    color: #ffc107;
+    font-family: 'Old Standard TT', serif;
+}
+
+.container{
+    display: flex;
+    margin-inline: auto;
+    height: 35rem;
+    width: 54rem;
+    margin-top: 5rem;
+}
+
+.image-container img{
+    background-color: #faf6f6;
+    width: 25rem;
+    height: 70%;
+    object-fit: cover;
+}
+
+.description-container{
+    background-color: #f7f2f2;
+    padding: 2rem;
+    height: 24.5rem;
+    width: 25rem;
+}
+
+.description-container-heading{
+    font-family: 'Ubuntu',sans-serif;
+    font-size: xx-small;
+    padding: 5px 0px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    text-align:center;
+}
+
+.description-container-title{
+    font-family: 'Old Standard TT', serif;
+    font-size: 2rem;
+    font-weight: bolder;
+    margin-right: 2rem;
+    margin-bottom: 1rem;
+    margin-top: 1.5rem;
+    text-align: center;
+}
+
+.description-container-text{
+    font-family: 'Ubuntu',sans-serif;
+    text-align: justify;
+    font-size: small;
+    text-align: center;
+    margin-right: 1rem;
+    margin-bottom: 20px;
+    font-weight: 600;
+}
+
+.btn{
+    margin-left: 2.5rem;
+    margin-top: 1rem;
+    padding: 5px 15px;
+    font-weight: 500;
+    border-radius: 20px;
+    font-size: small;
+}
+
+.navbar-brand{
+    font-size: large;
+}
+
+.nav-link{
+    margin-left: 12rem;
+    text-transform: uppercase;
+    font-size: small;
+    font-weight: 500;
+}
+
+.icon{
+    display: flex;
+    margin-left: 30rem;
+}
+i{
+    cursor: pointer;
+    margin-left: 2rem;
+}
+
